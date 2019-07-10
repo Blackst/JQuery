@@ -19,5 +19,5 @@ $(function(){
 $(function(){
 
 	//Troca para outra imagem.
-	//$('img').attr('src', 'imagem.jpg')
+	//	$('img').attr('src', 'imagem.jpg')
 });
