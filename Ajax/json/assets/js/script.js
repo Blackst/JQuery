@@ -4,12 +4,13 @@ $(function(){
 		e.preventDefault();
 
 		var txt = $(this).serialize();
+		console.log(txt);
 
 		$.ajax({
 			type:'POST',
 			url:'ajax.php',
 			data:txt,
-			datatype:'json',
+			dataType:'json',
 			success:function(json){
 				if(json.status == 'ok'){
 					alert("Deu Certo!");
